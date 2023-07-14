@@ -1,0 +1,79 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Stock Prediction</title>
+</head>
+<body
+
+     style="background-image: url('https://media.istockphoto.com/id/498427888/photo/3d-graph-with-columns-and-arrow.jpg?s=612x612&w=is&k=20&c=aiTtZro5BpfJKvdpbcZoCwXflxwNvKNM72rmpTZaIjQ=');">
+
+    <h1><B>Netflix Stock Prediction </B> </h1>
+    <form method="GET" action="/predict_stock">
+
+        <label><B>Open:</B> </label>
+        <input type = "text" name = "Open">
+        </select>
+
+        <br>
+        <br>
+
+        <label><B>High:</B> </label>
+        <input type = "text" name = "High">
+        </select>
+
+        <br>
+        <br>
+
+        <label><B>Low:</B> </label>
+        <input type = "text" name = "Low">
+        </select>
+
+        <br>
+        <br>
+
+        <label><B>Volume:</B> </label>
+        <input type = "text" name = "Volume">
+        </select>
+
+        <br>
+        <br>
+
+        <label><B>Year:</B> </label>
+        <input type = "text" name = "year">
+        </select>
+
+        <br>
+        <br>
+
+        <label><B>Month:</B> </label>
+        <input type = "text" name = "month">
+        </select>
+
+        <br>
+        <br>
+
+        <label><B>Day:</B> </label>
+        <input type = "text" name = "day">
+        </select>
+
+        <br>
+        <br>
+
+
+        <input type = "submit" value="SUBMIT">
+
+        <br>
+
+        <h4><strong>Your Stock Closing rates will be <b><u> {{ result }} </u>/- Rs.</b> Only </strong></h4>
+
+
+    </form>
+
+
+
+    
+</body>
+</html>
